@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Couner</title>
+    <script
+      src="https://kit.fontawesome.com/9cb1209535.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containerr">
+      <div class="left">
+        <div class="card one">
+          <img src="/imgs/A.png" alt="A" data-key="1" />
+        </div>
+        <div class="card two">
+          <img src="/imgs/two.png" alt="two" data-key="2" />
+        </div>
+        <div class="card three">
+          <img src="/imgs/three.png" alt="three" data-key="3" />
+        </div>
+        <div class="card four">
+          <img src="/imgs/four.png" alt="four" data-key="4" />
+        </div>
+        <div class="card five">
+          <img src="/imgs/five.png" alt="five" data-key="5" />
+        </div>
+        <div class="card six">
+          <img src="/imgs/six.png" alt="six" data-key="6" />
+        </div>
+      </div>
+      <div class="middle">
+        <div class="card seven">
+          <img src="/imgs/seven.png" alt="seven" data-key="7" />
+        </div>
+        <div class="number">0</div>
+        <div class="text">များများ သုတ်</div>
+        <button class="restart">Restart</button>
+        <div class="history"></div>
+        <div class="popup">
+          <i class="fas fa-question pu"></i>
+        </div>
+      </div>
+      <div class="right">
+        <div class="card eight">
+          <img src="/imgs/eight.png" alt="eight" data-key="8" />
+        </div>
+        <div class="card nine">
+          <img src="/imgs/nine.jpg" alt="nine" data-key="9" />
+        </div>
+        <div class="card ten">
+          <img src="/imgs/ten.jpg" alt="ten" data-key="0" />
+        </div>
+        <div class="card jack">
+          <img src="/imgs/J.png" alt="jack" data-key="j" />
+        </div>
+        <div class="card queen">
+          <img src="/imgs/Q.jpg" alt="queen" data-key="q" />
+        </div>
+        <div class="card king">
+          <img src="/imgs/K.jpg" alt="king" data-key="k" />
+        </div>
+      </div>
+    </div>
+
+    <div class="discription">
+      <div class="close">x</div>
+      <h1>Card Counting made easy</h1>
+      <p>
+        Card counting is a blackjack strategy used to determine whether the
+        player or the dealer has an advantage on the next hand.My program uses
+        Hi-Lo Strategy which is as follows.
+      </p>
+      <table>
+        <tr>
+          <th>Cards</th>
+          <th>Values</th>
+        </tr>
+        <tr>
+          <td>2,3,4,5,6</td>
+          <td>+1</td>
+        </tr>
+        <tr>
+          <td>7,8,9</td>
+          <td>+0</td>
+        </tr>
+        <tr>
+          <td>10,J,Q,K</td>
+          <td>-1</td>
+        </tr>
+      </table>
+      <p>
+        If you are using with computer, you can use keyboard for Ace(card) as 1,
+        Two(card) as 2, Three(card) as 3, Jack(card) as j, Queen(card) as q,
+        King(card) as k,etc...
+      </p>
+      <p>
+        For more information about card counting, Go to
+        <a href="https://en.wikipedia.org/wiki/Card_counting" target="blank"
+          >this</a
+        >
+      </p>
+      <p>
+        NOTE: Press 0 for Ten(card)<br />များများသုတ်ဆိုရင်
+        ကဒ်အကြီးလာနိုင်ချေပိုများပီးတော့ ထိန်းစော့ဆိုရင်
+        ကဒ်အသေးလာနိုင်ချေပိုများပါတယ်။
+      </p>
+    </div>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
