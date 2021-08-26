@@ -176,3 +176,32 @@ tr:nth-child(even) {
 .blur {
   filter: blur(4px);
 }
+
+@media (max-width: 500px) {
+  .card {
+    width: 5rem;
+    height: 5rem;
+  }
+  .discription {
+    padding: 1.3rem 1rem;
+  }
+  .discription p {
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
+  }
+  .discription h1 {
+    font-size: 1rem;
+  }
+  table {
+    margin-top: 0.7rem;
+  }
+
+  .popup {
+    bottom: 1rem;
+    left: 1rem;
+    padding: 10px;
+  }
+  .popup .pu {
+    font-size: 1rem;
+  }
+}
